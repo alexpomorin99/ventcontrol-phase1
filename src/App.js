@@ -312,7 +312,6 @@ export default function App() {
   const [user, setUser] = useState(undefined); // undefined = loading
   const [loginLoading, setLoginLoading] = useState(false);
   const [accessDenied, setAccessDenied] = useState(false);
-  const [accessDenied, setAccessDenied] = useState(false);
   const [projects, setProjects] = useState([]);
   const [activeId, setActiveId] = useState(null);
   const [newName, setNewName] = useState('');
